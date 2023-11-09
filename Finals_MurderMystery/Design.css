@@ -1,3 +1,85 @@
 body{
-	background: #1F1F22;
+	background-color: #22211F;
+	background-image: url("Images/background.png");
+	background-repeat: repeat;
+	background-position: center;
+}
+h1{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+
+}
+h2{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+h3{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+h4{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+p{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+button{
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#Title{
+
+}
+#MainMenu{
+	height: 900px;
+}
+#StartGameButton{
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 42%;
+	-ms-transform: translateY(-50%, -50%);
+	transform: translateY(-50%, -50%);
+
+	background-color: #22211f; /* Green */
+    border: solid 5px #3C3C44;
+    color: white;
+    padding: 40px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+#StartGame{
+	display: none;
+}
+#Chapter{
+	padding: 5px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+}
+#Image{
+	padding: 200px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+}
+#Story{
+	padding: 10px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+}
+#Game{
+	padding: 20px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+}
+#Credit{
+
 }
