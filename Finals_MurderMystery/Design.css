@@ -30,32 +30,19 @@ p{
 	color: ghostwhite;
 	text-align: center;
 }
-button{
-	text-align: center;
-	font-family: "Lucida Console", "Courier New", monospace;
-}
-#Title{
-
-}
 #MainMenu{
-	height: 900px;
+	height: 40px;
 }
 #StartGameButton{
-	margin: 0;
-	position: absolute;
-	top: 70%;
-	left: 42%;
-	-ms-transform: translateY(-50%, -50%);
-	transform: translateY(-50%, -50%);
+	padding: 5px;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
 
-	background-color: #22211f; /* Green */
-    border: solid 5px #3C3C44;
-    color: white;
-    padding: 40px 70px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+	text-align: center;
+	background-color: #22211f;
+	color: white;
+	border: solid 5px #3C3C44;
+	height: 20px;
 }
 #StartGame{
 	display: none;
@@ -66,7 +53,7 @@ button{
 	border: solid 5px #3C3C44;
 }
 #Image{
-	padding: 200px;
+	height: 500px;
 	background-color: #22211f;
 	border: solid 5px #3C3C44;
 }
@@ -80,6 +67,11 @@ button{
 	background-color: #22211f;
 	border: solid 5px #3C3C44;
 }
-#Credit{
-
+.buttonDesign{
+	text-align: center;
+	vertical-align: center;
+	background-color: ghostwhite;
+	color: #22211f;
+	border: solid 3px #3C3C44;
+	font-family: "Courier New", monospace;
 }

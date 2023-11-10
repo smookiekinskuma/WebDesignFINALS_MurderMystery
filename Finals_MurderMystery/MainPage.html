@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="utf-8">
 
 	<!--Need title for the murder mystery game-->
@@ -9,59 +10,70 @@
 	<!--Connecting to other scripts such as CSS and JS-->
 	<link rel="stylesheet" href="Design.css">
 	<script src="lib/jquery-3.7.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<!--Script-->
+	<script>
+		$(document).ready(function(){
+			$("#StartGameButton").click(function(){
+				$("#StartGame").slideToggle(500);
+			});
+		});
+	</script>
+
 </head>
 
 <body>
+	
 	<!--Title-->
 	<div id="Title">
-	<hr>
-	<h1>The Murder Case of Duff McWhisky</h1>
-	<hr>
+		<hr>
+		<h1>The Murder Case of Duff McWhisky</h1>
+		<hr>
 	</div>
 
 	<!--Main Menu-->
 	<div id="MainMenu">
-
-	<button id="StartGameButton">Start The Game</button>
-
+		<div id="StartGameButton">Start The Game</div>
+		<hr>
 	</div>
 
 	<!--The Game-->
 	<div id="StartGame">
+		<br>
+		<!--Chapter-->
+		<div id="Chapter">
+			<h2>H2 sample. Beginning</h2>
+		</div>
+		<br>
 
-	<!--Chapter-->
-	<div id="Chapter">
-	<h2>H2 sample. Beginning</h2>
-	</div>
-	<br>
+		<!--Image/Scene-->
+		<div id="Image">
+			<p>Describing the scene</p>
+		</div>
+		<br>
 
-	<!--Image/Scene-->
-	<div id="Image">
-		<p>Describing the scene</p>
-	</div>
-	<br>
+		<!--The Story-->
+		<div id="Story">
+			<h3>H3 sample. It was a dark and stormy night. <br> You know, the usual night in this bleak city. <br> Got a call from the chief. A new case. <br> Time to investigate a murder.</h3>
+			<h4>H4 sample.</h4>
+		</div>
 
-	<!--The Story-->
-	<div id="Story">
-	<h3>H3 sample. It was a dark and stormy night. <br> You know, the usual night in this bleak city. <br> Got a call from the chief. A new case. <br> Time to investigate a murder.</h3>
-	<h4>H4 sample.</h4>
-	</div>
-	<br>
-
-	<!--The buttons and possibly the inner thought of the MC to us players-->
-	<div id="Game">
-	<p>Paragraph. Continue story? This is MC talking to the audience/player.</p>
-	<button>A Button</button><button>A Button</button><button>A Button</button>
-	</div>
-
+		<!--The buttons and possibly the inner thought of the MC to us players-->
+		<div id="Game">
+			<p>Paragraph. Continue story? This is MC talking to the audience/player.</p>
+			<div class="buttonDesign" id="Continue1">Continue</div>
+		</div>
 	</div>
 
 	<!--Credits!-->
 	<hr>
+	<br>
 	<div id="Credit">
-	<p>A Murder Mystery game made by Nicaia Divina and Sean Undag.</p>
-	<p>Web Design and Scripting (JS/JQUERY) Final Project.</p>
+		<p>A Murder Mystery game made by Nicaia Divina and Sean Undag.</p>
+		<p>Web Design and Scripting (JS/JQUERY) Final Project.</p>
 	</div>
+
 </body>
 <!---->
 </html>
