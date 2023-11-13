@@ -1,0 +1,124 @@
+body{
+	background-color: #22211F;
+	background-image: url("Images/background.png");
+	background-repeat: repeat;
+	background-position: center;
+}
+h1{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+
+}
+h2{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+h3{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+h4{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+p, #Credit{
+	font-family: "Courier New", monospace;
+	color: ghostwhite;
+	text-align: center;
+}
+#MainMenu{
+	height: 40px;
+}
+#DeadBody{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 800px;
+}
+#StartGameButton{
+	padding: 5px;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+
+	text-align: center;
+	background-color: #22211f;
+	color: white;
+	border: solid 5px #3C3C44;
+	height: 20px;
+}
+#StartGame, #Act1{
+	display: none;
+}
+
+#Chapter{
+	padding: 1px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+	width: 750px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#Image{
+	height: 500px;
+	width: 750px;
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#Story{
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+	width: 750px;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 5px;
+}
+#Game{
+	background-color: #22211f;
+	border: solid 5px #3C3C44;
+	width: 750px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#Thoughts{
+	padding: 5px;
+}
+.buttonDesign{
+	text-align: center;
+	vertical-align: center;
+	background-color: ghostwhite;
+	color: #22211f;
+	border: solid 3px #3C3C44;
+	font-family: "Courier New", monospace;
+	width: 400px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#scene1, #scene2, #GoodEnding, #BadEnding{
+	width: 700px;
+  	height: 400px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border: solid 3px #3C3C44;
+}
+#suspect1, #suspect2, #suspect3{
+	width: 500px;
+  	height: 650px;
+  	display: inline-block;
+  	margin-left: 35px;
+  	border: solid 3px #3C3C44;
+  	padding: 5px;
+}
+#Choice1, #Choice2, #Choice3{
+	width: 200px;
+	display: inline-block;
+  	margin-left: 35px;
+  	margin-bottom: 20px;
+}
